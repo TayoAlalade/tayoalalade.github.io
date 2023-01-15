@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+
+.topnav {
+  overflow: auto;
+  background-color: rgb(0, 147, 192);
+  position: relative;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 20%;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #757575;
+  color: rgb(255, 255, 255);
+}
+
+
+h1 {text-align: center;}
+p {text-align: center; font-size: 18px;}
+div {text-align: center;} 
+
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="./index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+  <a href="./About.html"><i class="fa fa-fw fa-user"></i>About</a>
+  <a href="./Experience.html"><i class="fa fa-fw fa-briefcase"></i>Experience</a>
+  <a href="./Skills.html"><i class="fa fa-fw fa-code"></i>Skills</a>
+  <a href="file:///C:/Users/tjala/Desktop/Personal%20Professional/Resumes/John_Alalade_CS.pdf"><i class="fa fa-fw fa-book"></i>Resume</a>
+</div>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h1>John Oluwatayo Alalade</h1>
+  <p>Welcome to my website! My name is Tayo Alalade and I am a third year Computer Science Student at the Univeristy of Windsor.</p>
+  <p>Feel free to look around and you can also find some of my links down below.</p>
+  <a href="https://github.com/TayoAlalade/TayoAlalade"><i class="fa fa-fw fa-github fa-4x" style="color:#ffffff;"></i></a>
+  <a href="https://www.linkedin.com/in/john-alalade-2108b61a4/"><i class="fa fa-fw fa-linkedin-square fa-4x" style="color:#ffffff;"></i></a>
+ </div>
+  
+
+</body>
+</html>
