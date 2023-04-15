@@ -26,38 +26,54 @@
         background-size: cover;
         height: 600px;
         
-    
-        
     }
     .hero-text{
         background-color: rgba(4,7,32,0.5);
         height: 600px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: auto;
     }
+
     h1{
         color:white;
-        
         text-shadow: 8px 10px 10px #000000;
         border-top:none;
         border-bottom: none;
-        padding: 90px 40px;
         text-transform: uppercase;
-        font-size: 50px;
+        text-align: center;
+        font-size: 65px;
         font-weight: 800;
+        max-width: 1200px;
+        
         
     }
+
+    h2{
+        color:white;
+        text-shadow: 8px 10px 10px #000000;
+        border-top:none;
+        border-bottom: none;
+        padding: 10px 40px;
+        text-transform: uppercase;
+        font-size: 35px;
+        font-weight: 800;
+        max-width: 1200px;
+        
+    }
+
+   
     .about{
         
-        height: 700px;
-        background-image: url("https://c4.wallpaperflare.com/wallpaper/300/1003/730/restricted-access-blue-hand-print-wallpaper-preview.jpg");
-        background-repeat: no-repeat;
+        height: 950px;
+        background-image: url("https://cdn.discordapp.com/attachments/905903796134219796/1096637283676991558/About.jpg");
+        background-repeat: repeat;
         background-size: cover;
         overflow: hidden;
         background-position: center;
-        
-    
+        image-rendering: optimizeQuality;
         
     }
     .icons{
@@ -78,8 +94,7 @@
         
     }
     .about-main{
-        width: 90%;
-         
+        width: 63%;
         margin: auto;
         display: flex;
         justify-content: space-between;
@@ -87,14 +102,24 @@
     }
     .about-text{
         background-color: rgb(16, 19, 47);
-        padding: 10px ;
-        width:600px;
+        padding: 30px ;
+        padding-left: 60px;
+        padding-right: 60px;
+        width:1000px;
+        margin: auto;
+        line-height: 2;
         
+    }
+
+    .photoshoot {
+        display: block;
+        height: 645px;
+        width: 550px;
     }
     
     h3{
         font-size: 40px;
-        
+        margin: auto;
         font-weight: 600;
        
     }
@@ -127,7 +152,7 @@
     .work-image img{
         width:100%;
         height: 100%;
-        object-fit: cover;
+        
     }
     .work-text{
         width:90%;
@@ -163,6 +188,7 @@
     }
     .skills-text{
         width: 50%;
+        font-size: 20px;
     
     }
     
